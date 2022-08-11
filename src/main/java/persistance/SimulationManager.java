@@ -10,7 +10,7 @@ import java.io.IOException;
 
 public class SimulationManager {
 
-    public static final String lienFichierSimulation = "src/main/resources/simulation.json";
+    public static final String lienFichierSimulation = "simulation.json";
     private static final ObjectMapper mapper = new ObjectMapper();
     static {
         mapper.enable(SerializationFeature.INDENT_OUTPUT);
